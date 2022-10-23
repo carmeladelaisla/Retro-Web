@@ -1,0 +1,438 @@
+@font-face{
+    font-family: PaytoneOne-Regular;
+    src: url(fonts/PaytoneOne-Regular.woff);
+}
+
+@font-face{
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins-Regular.woff);
+}
+
+body{
+    margin: 0;
+    background-color: #b30059;
+    background-image: url(/images/diagonalplaidpattern.jpeg);
+    background-repeat: repeat;
+    background-blend-mode: lighten; 
+    background-size: contain;
+}
+
+
+.PinkBox{ 
+    margin: 6vh 8vw 15vh 8vw;
+    grid-area: top;
+    z-index: -100;
+    background-color: white;
+    border-color: #C81562;
+    border-style: solid;
+    border-width: 65px 25px 25px 25px;
+    box-shadow: 2px 2px 12px black;
+}
+
+.Logo{
+    width: 80vw;
+    z-index: 800;
+    grid-area: top;
+    margin-left: 15px;
+    
+}
+
+#CluelessLogo{
+    width: 80vw;
+    z-index: 1000;
+    margin: 5vw 5vw -10vh 5vw;
+}
+
+#cluelesstrio{
+    width: 58vw;
+    margin: 0 6vw;
+}
+
+#first_heading{
+    color: #B4004E;
+    text-align: left;
+    margin: 20px;
+    font-family: PaytoneOne-Regular;
+    font-size: 20pt;
+}
+
+#summary{
+    margin: 20px;
+    line-height: 1.3;
+    font-family: Poppins-Regular;
+    font-size: 10pt;
+}
+
+#FunFact1{
+    background-color: #FFDE69;
+    padding: 2vw;
+    width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+    font-family: Poppins;
+    font-size: 1em;
+    box-shadow: 6px 6px #b4004e;
+    color: #B4004E;
+}
+
+.FunFact2{
+    grid-area: top;
+    justify-self: center;
+    background: white;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 65px 25px 25px 25px;
+    z-index: 600;
+    align-items: center;
+    margin: 5vh 8vw 15vh 8vw;
+    box-shadow: -2px 1px 10px 0px black;
+    padding-bottom: 30vh;
+    padding-top: 5vh;
+}
+
+
+#FunFactTitle{
+    color: #B4004E;
+    font-family: Poppins;
+    line-height: 1;
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+#FunFactParagraph{
+    font-family: Poppins;
+    line-height: 1.3;
+    margin: 20px;
+}
+
+.MenuTop, .MenuMiddle{
+    padding-top: 5vh;
+    padding-bottom: 35vh;
+    background: white;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 65px 25px 25px 25px;
+    z-index: 30000;
+    align-items: center;
+    margin: 8vw;
+    margin-bottom: 15vh;
+    box-shadow: -2px 1px 10px 0px black;
+}
+
+.MenuBottom{
+    padding-top: 10vh;
+    padding-bottom: 35vh;
+    background: white;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 65px 25px 25px 25px;
+    z-index: 30000;
+    align-items: center;
+    margin: 15vh 8vw 15vh 8vw;
+    box-shadow: -2px 1px 10px 0px black;
+}
+
+
+
+.Home, .HomeMiddle, .HomeBottom{
+    background-color: #B4004E;
+    width: 15vw;
+    padding: 2vw;
+    text-align: center;
+    margin: 2vh auto;
+    font-family: Poppins-Regular;
+    color: white;
+    border-radius: 5px;
+}
+
+.Cast, .CastMiddle, .CastBottom{
+    position: relative;
+    background-color: #B4004E;
+    width: 45vw;
+    padding: 2vw;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Poppins-Regular;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.Fashion, .FashionMiddle, .FashionBottom{
+    position: relative;
+    background-color: #B4004E;
+    width: 20vw;
+    padding: 2vw;
+    margin: 2vh auto;
+    text-align: center;
+    font-family: Poppins-Regular;
+    color: white;
+    border-radius: 5px;
+   
+}
+
+#cluelesstransparent{
+    width: 60vw;
+    margin: 0 -31px -68px 100px;
+}
+
+.Footer{
+    grid-area: footer;
+    background-color: #B4004E;
+    margin: 5vw 0 0;
+}
+
+.MenuButtonTop, .MenuButtonMiddle, .MenuButtonBottom{
+    margin: 20px auto;
+    text-align: center;
+    color: #B4004E;
+    font-family: Poppins-Regular;
+    background-color: #FFDE69;
+    padding: 1vw;
+    width: 12vw;
+    z-index: -50;
+    box-shadow: 4px 4px #b4004e;
+    
+}
+
+
+
+#CluelessLogo2{
+    width: 80vw;
+    align-content: center;
+    z-index: 1000;
+    margin: 8vh 8vw -8vh 8vw;
+}
+
+#CluelessLogo3{
+    width: 80vw;
+    align-content: center;
+    z-index: 1000;
+    margin: 8vh 8vw -20vh 8vw;
+}
+
+.FashionTab{
+    grid-area: middle;
+    margin: 8vw;
+    margin-bottom; 15vh;
+    z-index: 700;
+    background-color: white;
+    border-color: lightpink;
+    border-style: solid;
+    border-width: 65px 25px 25px 25px;
+    box-shadow: 2px 2px 12px black;
+}
+
+#fashion_heading{
+    color: #B4004E;
+    justify-self: center;
+    text-align: left;
+    margin: 20px;
+    font-family: PaytoneOne-Regular;
+    font-size: 20pt;
+}
+
+#fashion_paragraph1, #fashion_paragraph2{
+    margin: 20px;
+    line-height: 1.3;
+    font-family: Poppins-Regular;
+    font-size: 10pt;
+}
+
+h2{
+    color: #B4004E;
+    font-family: Poppins;
+    line-height: 1;
+    font-size: 1em;
+    margin: 20px 20px 5px 20px;
+    text-align: center;
+}
+
+h3{
+    color: gray;
+    font-family: Poppins;
+    line-height: 1;
+    font-size: 1em;
+    text-align: center;
+    margin: 3px;
+    
+}
+
+#FooterImage{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+
+.Close1, .Close2, .Close3, .Close4{
+    background-color: #B4004E;
+    width: 25vw;
+    text-align: center;
+    margin: 2vh auto;
+    font-family: Poppins-Regular;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 2vw;
+    
+}
+
+
+.CastTab{
+    padding: 8vw;
+    margin: 15vh 8vw 15vh 8vw;
+    grid-area: bottom;
+    z-index: -100;
+    background-color: white;
+    border-color: #fad505;
+    border-style: solid;
+    border-width: 65px 25px 25px 25px;
+    box-shadow: 2px 2px 12px black;
+}
+
+#CastTitle{
+    color: #B4004E;
+    text-align: center;
+    margin: 20px;
+    font-family: PaytoneOne-Regular;
+    font-size: 20pt;
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 576px){
+    
+      .PinkBox, .CastTab, .FashionTab, .FunFact2, .MenuTop, .MenuMiddle, .MenuBottom{
+        margin-top: 70px;
+        border-width: 70px 25px 25px 25px;
+        padding-bottom: 4vh;
+    }
+    
+    #cluelesstrio{
+        width: 60vw;
+        margin: 0 7vw;
+    }
+    
+    
+    #first_heading, #fashion_heading, #CastTitle{
+        font-size: 2em;
+        margin: 7vw;
+    }
+    
+    #fashion_paragraph1, #fashion_paragraph2, #summary{
+        margin: 7vw;
+        font-size: 14pt;
+    }
+    
+    
+    h2, h3{
+        font-size: 1.2em;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+    .PinkBox, .CastTab, .FashionTab, .FunFact2, .MenuTop, .MenuMiddle, .MenuBottom{
+        margin-top: 100px;
+        border-width: 80px 25px 25px 25px;
+        
+    }
+    
+    #CluelessLogo, #CluelessLogo2, #CluelessLogo3{
+        margin-bottom: -25vh;
+    }
+    
+    
+}
+
+@media screen and (min-width: 992px){
+    
+    .PinkBox, .CastTab, .FashionTab, .FunFact2, .MenuTop, .MenuMiddle, .MenuBottom{
+        padding-bottom: 4vh;
+        margin-top: 130px;
+        border-width: 110px 25px 25px 25px;
+    }
+    
+     #first_heading, #fashion_heading, #CastTitle, #FunFactTitle{
+        font-size: 2.5em;
+        margin: 8vw;
+    }
+    
+    #fashion_paragraph1, #fashion_paragraph2, #summary, #FunFactParagraph{
+        margin: 8vw;
+        font-size: 16pt;
+    }
+    
+    
+    h2, h3{
+        font-size: 1.5em;
+    }
+        
+    .MenuButtonTop, .MenuButtonMiddle, .MenuButtonBottom, #FunFact1, .Close1, .Home, .HomeMiddle, .HomeBottom, .Cast, .CastMiddle, .CastBottom, .Fashion, .FashionMiddle, .FashionBottom, .Close2, .Close3, .Close4{
+        font-size: 1.5em;
+    }
+
+}
+@media screen and (min-width: 1200px){
+    
+    .PinkBox, .CastTab, .FashionTab, .FunFact2, .MenuTop, .MenuMiddle, .MenuBottom{
+        padding-bottom: 6vh;
+        margin-top: 150px;
+        border-width: 125px 35px 35px 35px;
+    }
+    
+    #first_heading, #fashion_heading, #CastTitle, #FunFactTitle{
+        font-size: 3em;
+    }
+    
+     #fashion_paragraph1, #fashion_paragraph2, #summary, #FunFactParagraph{
+        font-size: 18pt;
+    }
+    
+    h2, h3{
+        font-size: 2em;
+    }
+ 
+    .MenuButtonTop, .MenuButtonMiddle, .MenuButtonBottom, #FunFact1, .Close1, .Home, .HomeMiddle, .HomeBottom, .Cast, .CastMiddle, .CastBottom, .Fashion, .FashionMiddle, .FashionBottom, .Close2, .Close3, .Close4{
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    
+    .PinkBox, .CastTab, .FashionTab, .FunFact2, .MenuTop, .MenuMiddle, .MenuBottom{
+        padding-bottom: 6vh;
+        margin-top: 160px;
+        border-width: 135px 40px 40px 40px;
+    }
+    
+    #first_heading, #fashion_heading, #CastTitle, #FunFactTitle{
+        font-size: 3.5em;
+    }
+    
+     #fashion_paragraph1, #fashion_paragraph2, #summary, #FunFactParagraph{
+        font-size: 20pt;
+    }
+    
+    h2, h3{
+        font-size: 2.5em;
+    }
+ 
+    .MenuButtonTop, .MenuButtonMiddle, .MenuButtonBottom, #FunFact1, .Close1, .Home, .HomeMiddle, .HomeBottom, .Cast, .CastMiddle, .CastBottom, .Fashion, .FashionMiddle, .FashionBottom, .Close2, .Close3, .Close4{
+        font-size: 2.5em;
+    }
+    
+   
+    
+}
